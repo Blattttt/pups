@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="Authorization" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Organizers">
+    <children>
+        <Label fx:id="titleAuthorization" layoutX="211.0" layoutY="31.0" text="Окно оганизатора">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+        <Button fx:id="activityButton" layoutX="206.0" layoutY="171.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="188.0" text="Мероприятия" />
+      <Label fx:id="helloLadel" layoutX="263.0" layoutY="86.0" text="Здравствуйте" />
+      <Button fx:id="uchastnikiButton" layoutX="206.0" layoutY="257.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="188.0" text="Участники" />
+      <Button fx:id="juriButton" layoutX="206.0" layoutY="343.0" mnemonicParsing="false" prefHeight="68.0" prefWidth="188.0" text="Жюри" />
+      <Label fx:id="msMrsLadel" layoutX="209.0" layoutY="120.0" prefHeight="17.0" prefWidth="238.0" text="Здравствуйте" />
+      <Button fx:id="exitButton" layoutX="514.0" layoutY="429.0" mnemonicParsing="false" text="Выйти" />
+    </children>
+</Pane>

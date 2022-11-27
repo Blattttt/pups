@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="Authorization" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Authorization">
+    <children>
+        <Label fx:id="titleAuthorization" layoutX="235.0" layoutY="30.0" text="Авторизация">
+            <font>
+                <Font name="System Bold" size="20.0" />
+            </font>
+        </Label>
+        <Label layoutX="151.0" layoutY="232.0" text="ID номер" />
+        <Label layoutX="151.0" layoutY="268.0" text="Пароль" />
+        <TextField fx:id="numberfield" layoutX="209.0" layoutY="227.0" text="1" />
+        <PasswordField fx:id="passwordfield" layoutX="209.0" layoutY="264.0" text="eiEJ2382Lh" />
+        <Button fx:id="enterbtn" layoutX="401.0" layoutY="247.0" mnemonicParsing="false" text="Войти" />
+        <Label fx:id="codepic" layoutX="340.0" layoutY="303.0" prefHeight="17.0" prefWidth="49.0" />
+        <TextField fx:id="codefield" layoutX="246.0" layoutY="299.0" prefHeight="25.0" prefWidth="75.0" />
+        <Label fx:id="codelabel" layoutX="152.0" layoutY="303.0" text="Введите капчу" />
+      <Button fx:id="activityButton" layoutX="435.0" layoutY="33.0" mnemonicParsing="false" text="Таблица мероприятий" />
+      <Label fx:id="exLabel1" layoutX="181.0" layoutY="339.0" text="Неправильно введены данные входа" visible="false" />
+    </children>
+</Pane>

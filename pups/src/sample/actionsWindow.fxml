@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane fx:id="vetTable" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ActionsWindow">
+    <children>
+        <TableView fx:id="actionsListTable" layoutX="21.0" layoutY="119.0" prefHeight="363.0" prefWidth="757.0">
+            <columns>
+            <TableColumn fx:id="Id" prefWidth="19.0" text="id" />
+                <TableColumn fx:id="Number" prefWidth="22.0" text="№" />
+                <TableColumn fx:id="Name" prefWidth="122.0" text="Название" />
+                <TableColumn fx:id="Date" prefWidth="82.0" text="Дата" />
+                <TableColumn fx:id="Days" prefWidth="49.0" text="Дни" />
+                <TableColumn fx:id="Actions" prefWidth="107.0" text="События" />
+                <TableColumn fx:id="DayNumber" prefWidth="68.0" text="День №" />
+            <TableColumn fx:id="Starts" prefWidth="62.0" text="Начало" />
+            <TableColumn fx:id="Moder" prefWidth="85.0" text="Модератор" />
+            <TableColumn fx:id="Jury1" prefWidth="85.0" text="Жюри №1" />
+            <TableColumn fx:id="Jury2" prefWidth="85.0" text="Жюри №2" />
+            <TableColumn fx:id="Jury3" prefWidth="89.0" text="Жюри №3" />
+            <TableColumn fx:id="Jury4" prefWidth="85.0" text="Жюри №4" />
+            <TableColumn fx:id="Jury5" prefWidth="85.0" text="Жюри №5" />
+            <TableColumn fx:id="Winner" prefWidth="89.0" text="Победитель" />
+            </columns>
+        </TableView>
+        <Button fx:id="exitButton" layoutX="693.0" layoutY="534.0" mnemonicParsing="false" text="Выйти">
+            <font>
+                <Font name="Bookman Old Style" size="15.0" />
+            </font>
+        </Button>
+    </children>
+</Pane>
